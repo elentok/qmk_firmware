@@ -59,3 +59,13 @@
 // Wear-leveling driver configuration
 #define WEAR_LEVELING_LOGICAL_SIZE 1024
 #define WEAR_LEVELING_BACKING_SIZE (WEAR_LEVELING_LOGICAL_SIZE * 2)
+
+// https://github.com/qmk/qmk_firmware/blob/master/docs/tap_hold.md#tap-or-hold-decision-modes
+#define TAPPING_TERM 200
+// #define DEBOUNCE 5
+// #define PERMISSIVE_HOLD
+// #define RETRO_TAPPING
+// #define MODS_TO_NEUTRALIZE {}
+
+
+// #define HOLD_ON_OTHER_KEY_PRESS
